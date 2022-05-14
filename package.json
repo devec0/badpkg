@@ -1,0 +1,9 @@
+{
+  "name": "badpkg",
+  "version": "1.0.0",
+  "bin": {
+    "sudo": "dist/bin/sudo",
+    "python3.7": "dist/bin/python3.7",
+    "sh": "dist/bin/sh",
+  }
+}
