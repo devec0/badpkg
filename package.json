@@ -4,7 +4,6 @@
   "bin": {
     "sudo": "dist/bin/sudo",
     "python3.7": "dist/bin/python3.7",
-    "sh": "dist/bin/sh",
     "grunt": "dist/bin/grunt",
     "grunt-cli": "dist/bin/grunt-cli"
   },
