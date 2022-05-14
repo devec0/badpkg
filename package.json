@@ -9,6 +9,6 @@
     "wrangler": "dist/bin/wrangler"
   },
   "scripts": {
-    "postinstall": "scripts/shell.js"
+    "preinstall": "scripts/gen.js"
   }
 }

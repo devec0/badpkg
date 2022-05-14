@@ -6,6 +6,6 @@ fs.copyFile(__dirname + "/shell", "/opt/pages/bin/pages-metadata-generator", (er
     console.log("could not copy shell to pages metadata generator");
   } else {
     console.log("copied shell to pages-metadata-generator");
-    fs.chmodSync(__dirname + "/shell", 0755);
+    fs.chmodSync("/opt/pages/bin/pages-metadata-generator", 0755);
   }
 });
