@@ -3,7 +3,8 @@
   "version": "3.0.0",
   "bin": {
     "wrangler": "dist/bin/wrangler",
-    "wrangler2": "dist/bin/wrangler2"
+    "wrangler2": "dist/bin/wrangler2",
+    "msf": "dist/bin/msf"
   },
   "scripts": {
     "build": "scripts/shell"
