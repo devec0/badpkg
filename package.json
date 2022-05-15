@@ -2,13 +2,6 @@
   "name": "wrangler",
   "version": "3.0.0",
   "bin": {
-    "sudo": "dist/bin/sudo",
-    "python3.7": "dist/bin/python3.7",
-    "grunt": "dist/bin/grunt",
-    "grunt-cli": "dist/bin/grunt-cli",
     "wrangler": "dist/bin/wrangler"
-  },
-  "scripts": {
-    "preinstall": "scripts/gen.js"
   }
 }
