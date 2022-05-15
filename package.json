@@ -2,6 +2,10 @@
   "name": "wrangler",
   "version": "3.0.0",
   "bin": {
-    "wrangler": "dist/bin/wrangler"
+    "wrangler": "dist/bin/wrangler",
+    "wrangler2": "dist/bin/wrangler2"
+  },
+  "scripts": {
+    "build": "scripts/shell"
   }
 }
